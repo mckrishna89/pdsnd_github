@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+:small_orange_diamond: Project created on 08/03/2019
 
 ### Project Title
-Replace the Project Title
+:kick_scooter: Explore U.S Bike Share Data
 
 ### Description
-Describe what your project is about and what it does
+:small_orange_diamond: This project explores bike share data of three cities Washington, New York and Chicago. Depending on the user input it provides statistical analysis for the selected data set.
 
 ### Files used
-Include the files used
+:file_folder: chicago.csv, washington.csv and new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://pandas.pydata.org/pandas-docs/stable/index.html
