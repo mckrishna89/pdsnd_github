@@ -134,7 +134,7 @@ def station_stats(df):
     popular_start_end_station_combo = df['Start_end_stn_pair'].mode()
     print('Most frequent combination of start station and end station:- ' + ', '.join(popular_start_end_station_combo))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\station_stats function took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
