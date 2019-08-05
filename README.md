@@ -11,5 +11,5 @@
 :file_folder: chicago.csv, washington.csv and new_york_city.csv
 
 ### Credits
-*https://pandas.pydata.org/pandas-docs/stable/index.html
-*https://www.python.org/dev/peps/pep-0008/
+https://pandas.pydata.org/pandas-docs/stable/index.html <br>
+https://www.python.org/dev/peps/pep-0008/
