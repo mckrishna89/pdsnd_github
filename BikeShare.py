@@ -110,7 +110,7 @@ def time_stats(df):
     popular_hour = df['Start Time'].dt.strftime('%I %p').mode()
     print('Most common hours for the selected data set are:- ' + ', '.join(popular_hour))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\ntime_stats function took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
@@ -135,7 +135,7 @@ def station_stats(df):
     popular_start_end_station_combo = df['Start_end_stn_pair'].mode()
     print('Most frequent combination of start station and end station:- ' + ', '.join(popular_start_end_station_combo))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\station_stats function took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
@@ -163,7 +163,7 @@ def trip_duration_stats(df):
                                      unit='m')  # change the format of trip time to readdable format of number of days hh:mm:ss.ssss
     print('Mean trip time for the current data set(format days hh:mm:ss.ssss) is:- ' + str(mean_trip_time))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\ntrip_duration_stats took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
@@ -213,7 +213,7 @@ def user_stats(df):
     else:
         print('\nThe column Birth Year does not exist in the current data set selected.')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nuser_stats function took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
