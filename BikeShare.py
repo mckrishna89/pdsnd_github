@@ -30,6 +30,7 @@ def get_filters():
             print('\nPlease Enter Valid City.')
 
     # gets user input for month (all, january, february, ... , june)
+    #user has the flexibility to enter either month name or month number
     while True:
         month = input('\nEnter either name of the month or month number in either one or two digit format'
                       '(i.e january=1 or 01, december=12) to filter by month, or "all" to apply no month filter.\n').lower()
