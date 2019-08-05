@@ -212,7 +212,7 @@ def user_stats(df):
     else:
         print('\nThe column Birth Year does not exist in the current data set selected.')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nuser_stats function took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
