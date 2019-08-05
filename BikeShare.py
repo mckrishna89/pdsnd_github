@@ -109,7 +109,7 @@ def time_stats(df):
     popular_hour = df['Start Time'].dt.strftime('%I %p').mode()
     print('Most common hours for the selected data set are:- ' + ', '.join(popular_hour))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\ntime_stats function took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
@@ -260,5 +260,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
