@@ -162,7 +162,7 @@ def trip_duration_stats(df):
                                      unit='m')  # change the format of trip time to readdable format of number of days hh:mm:ss.ssss
     print('Mean trip time for the current data set(format days hh:mm:ss.ssss) is:- ' + str(mean_trip_time))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\ntrip_duration_stats took %s seconds to execute." % (time.time() - start_time))
     print('-' * 40)
 
 
